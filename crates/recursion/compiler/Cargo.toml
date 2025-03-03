@@ -32,7 +32,7 @@ sp1-recursion-core = { workspace = true, features = ["program_validation"] }
 p3-challenger = { workspace = true }
 p3-dft = { workspace = true }
 p3-merkle-tree = { workspace = true }
-rand = "0.8.5"
+rand = "0.9"
 criterion = { version = "0.5.1", features = ["html_reports"] }
 
 [features]

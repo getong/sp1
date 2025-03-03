@@ -56,7 +56,7 @@ alloy-primitives = { version = "0.8", features = ["k256"] }
 secp256k1 = { git = "https://github.com/sp1-patches/rust-secp256k1", tag = "patch-0.29.1-sp1-4.0.0", features = ["recovery", "global-context", "rand", "serde"] }
 revm-precompile = { version = "11.0.1", default-features = false, features = ["kzg-rs", "secp256r1"] }
 hex-literal = "0.4.1"
-rand = "0.8.5"
+rand = "0.9"
 sp1-test-macro = { path = "./sp1-test-macro/" }
 sp1-test = { path = "./sp1-test/" }
 

@@ -31,7 +31,7 @@ pub unsafe extern "C" fn sys_rand(recv_buf: *mut u8, words: usize) {
     let mut rng = RNG.lock().unwrap();
     for i in 0..words {
         let element = recv_buf.add(i);
-        *element = rng.gen();
+        *element = rng.random();
     }
 }
 
